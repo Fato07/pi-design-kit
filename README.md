@@ -7,17 +7,27 @@ It includes:
 - Pi skills for generating UI artifacts, reviewing UI/design work, creating `DESIGN.md` files, and planning/reviewing UX flows.
 - Prompt-template slash commands: `/design`, `/design-review`, `/design-md`, `/design-systems`, plus `/ux*` commands.
 - Utility extension command: `/design-kit` for listing systems, copying a `DESIGN.md`, or starting a design prompt.
-- A curated subset of `DESIGN.md` references from [`VoltAgent/awesome-design-md`](https://github.com/VoltAgent/awesome-design-md).
+- Curated `DESIGN.md` references from [`VoltAgent/awesome-design-md`](https://github.com/VoltAgent/awesome-design-md) and [`nexu-io/open-design`](https://github.com/nexu-io/open-design).
 
 ## Install
 
-From this local checkout:
+Global install from GitHub:
+
+```bash
+pi install git:github.com/Fato07/pi-design-kit
+```
+
+Project-local install:
+
+```bash
+pi install -l git:github.com/Fato07/pi-design-kit
+```
+
+From a local checkout:
 
 ```bash
 pi install /Users/fathindosunmu/DEV/MyProjects/pi-design-kit
 ```
-
-Pi installs local packages by adding the path to `~/.pi/agent/settings.json`, so the package is available globally in every project. Use `pi install -l /Users/fathindosunmu/DEV/MyProjects/pi-design-kit` for project-local installation instead.
 
 ## Usage
 
@@ -66,12 +76,24 @@ Skills are available with Pi's standard skill command prefix:
 
 - `airbnb`
 - `apple`
+- `bento`
+- `brutalism`
 - `claude`
 - `composio`
 - `cursor`
+- `dashboard`
+- `editorial`
+- `enterprise`
 - `figma`
+- `glassmorphism`
 - `linear`
+- `material`
+- `minimal`
+- `modern`
+- `neobrutalism`
 - `notion`
+- `openai`
+- `shadcn`
 - `stripe`
 - `supabase`
 - `vercel`
@@ -87,6 +109,6 @@ A stronger integration smoke test is to run Pi RPC `get_commands` after installi
 
 ## License and attribution
 
-Package scaffolding and skills are MIT licensed.
+Package scaffolding and original skills are MIT licensed.
 
-Bundled `DESIGN.md` files are from `VoltAgent/awesome-design-md` at commit `3883984` and retain the upstream MIT license in `third_party/awesome-design-md/LICENSE`.
+Bundled third-party `DESIGN.md` files retain their upstream licenses. See `THIRD_PARTY.md`, `third_party/awesome-design-md/LICENSE`, and `third_party/open-design/LICENSE`.

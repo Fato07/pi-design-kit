@@ -1,9 +1,9 @@
 {
   "name": "pi-design-kit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Pi package with design artifact skills, UX prompts, and curated DESIGN.md references.",
-  "license": "MIT",
+  "license": "MIT AND Apache-2.0",
   "keywords": ["pi-package", "pi", "design", "ux", "skills", "design-md"],
   "scripts": {
     "verify": "node scripts/verify.mjs"

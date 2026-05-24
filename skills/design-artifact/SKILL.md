@@ -14,12 +14,24 @@ Start with `references/design-systems/index.md` when you need to choose a system
 
 - `references/design-systems/airbnb/DESIGN.md`
 - `references/design-systems/apple/DESIGN.md`
+- `references/design-systems/bento/DESIGN.md`
+- `references/design-systems/brutalism/DESIGN.md`
 - `references/design-systems/claude/DESIGN.md`
 - `references/design-systems/composio/DESIGN.md`
 - `references/design-systems/cursor/DESIGN.md`
+- `references/design-systems/dashboard/DESIGN.md`
+- `references/design-systems/editorial/DESIGN.md`
+- `references/design-systems/enterprise/DESIGN.md`
 - `references/design-systems/figma/DESIGN.md`
+- `references/design-systems/glassmorphism/DESIGN.md`
 - `references/design-systems/linear/DESIGN.md`
+- `references/design-systems/material/DESIGN.md`
+- `references/design-systems/minimal/DESIGN.md`
+- `references/design-systems/modern/DESIGN.md`
+- `references/design-systems/neobrutalism/DESIGN.md`
 - `references/design-systems/notion/DESIGN.md`
+- `references/design-systems/openai/DESIGN.md`
+- `references/design-systems/shadcn/DESIGN.md`
 - `references/design-systems/stripe/DESIGN.md`
 - `references/design-systems/supabase/DESIGN.md`
 - `references/design-systems/vercel/DESIGN.md`

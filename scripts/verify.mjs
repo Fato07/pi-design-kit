@@ -28,12 +28,24 @@ const expectedPrompts = [
 const expectedSystems = [
   "airbnb",
   "apple",
+  "bento",
+  "brutalism",
   "claude",
   "composio",
   "cursor",
+  "dashboard",
+  "editorial",
+  "enterprise",
   "figma",
+  "glassmorphism",
   "linear",
+  "material",
+  "minimal",
+  "modern",
+  "neobrutalism",
   "notion",
+  "openai",
+  "shadcn",
   "stripe",
   "supabase",
   "vercel",
@@ -130,7 +142,12 @@ function verifyExtension() {
 }
 
 function verifyLicenses() {
-  for (const file of ["LICENSE", "third_party/awesome-design-md/LICENSE"]) {
+  for (const file of [
+    "LICENSE",
+    "THIRD_PARTY.md",
+    "third_party/awesome-design-md/LICENSE",
+    "third_party/open-design/LICENSE",
+  ]) {
     if (!exists(path.join(root, file))) errors.push(`missing ${file}`);
   }
 }
