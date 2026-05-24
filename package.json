@@ -1,0 +1,24 @@
+{
+  "name": "pi-design-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pi package with design artifact skills, UX prompts, and curated DESIGN.md references.",
+  "license": "MIT",
+  "keywords": ["pi-package", "pi", "design", "ux", "skills", "design-md"],
+  "scripts": {
+    "verify": "node scripts/verify.mjs"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    }
+  },
+  "pi": {
+    "extensions": ["./extensions"],
+    "skills": ["./skills"],
+    "prompts": ["./prompts"]
+  }
+}
